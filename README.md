@@ -1,0 +1,1 @@
+# sociedad-entity-extract
