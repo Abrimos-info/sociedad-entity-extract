@@ -56,6 +56,7 @@ async function processQueue() {
         if(!target) {
             // If not found, create new document and insert into index
             let newObj = {
+                source: 'ocds',
                 nombre_razon_social: doc.name,
                 nit: id,
                 adjudicado: true
